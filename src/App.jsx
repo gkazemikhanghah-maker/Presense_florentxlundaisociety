@@ -784,7 +784,7 @@ const Onboarding = ({ onComplete }) => {
 
         {/* progress */}
         <div style={{ display: 'flex', gap: 6, marginBottom: 28 }}>
-          {[0, 1, 2].map(i => (
+          {[0, 1, 2, 3].map(i => (
             <div key={i} style={{
               flex: 1, height: 3, borderRadius: 2,
               background: i <= step ? t.accent : t.border,
